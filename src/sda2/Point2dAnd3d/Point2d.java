@@ -30,4 +30,18 @@ public class Point2d {
     public void setY(float y) {
         this.y = y;
     }
+
+    public void setXY(float x, float y){
+        this.x = x;
+        this.y = y;
+    }
+    public float[] getXY(){
+        return new float[]{x, y};
+    }
+
+    public String toString(){
+        return new String("(" + x + ", " +y + ")");
+    }
+
+
 }
