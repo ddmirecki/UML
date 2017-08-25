@@ -18,6 +18,7 @@ public class Main {
         IDwukolowy motocykl = new Motocykl();
         motocykl.jedz();
         motocykl.przewrocSie();
+        motocykl.hamuj();
 
         Motocykl motocykl2 = new Motocykl();
         motocykl2.dodajGazu();
