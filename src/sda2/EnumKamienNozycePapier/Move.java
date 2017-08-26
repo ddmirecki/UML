@@ -7,3 +7,4 @@ public enum Move {
 
     STONE, SCIS, PAPER, Q
 }
+
