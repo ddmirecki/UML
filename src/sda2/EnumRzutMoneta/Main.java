@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
         Rzut rzut = new Rzut();
+        System.out.println("Witaj w grze Moneta czy Reszka! Musisz zgadnąć jaki rzut wykonał komputer.");
+        System.out.println(" ");
         boolean runda = true;
         while(runda) {
             String czyJeszczeRaz = "Rzucasz jeszcze raz? T/N";
