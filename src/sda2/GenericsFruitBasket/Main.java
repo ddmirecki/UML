@@ -9,7 +9,11 @@ public class Main {
     Basket<Plants> basket = new Basket<>();
     Apple apple = new Apple();
     Potato potato = new Potato();
-    basket.set_thing(potato);
+    basket.set_thing(apple);
+
+    Plants plants = new Apple();
+
+        System.out.println(plants.nameOfPlant());
 
 
     }

@@ -3,7 +3,7 @@ package sda2.Generics;
 /**
  * Created by Daniel on 2017-09-06.
  */
-public class Suitcase <T extends Cothes & ICanBeFolded> {
+public class Suitcase <T extends Cothes & ICanBeFolded  > {
     private T _thing;
 
     public T getThing(){
